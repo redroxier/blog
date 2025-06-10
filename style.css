@@ -1,0 +1,25 @@
+body {
+    scroll-behavior: smooth;
+    background: #1bb7ff;
+}
+.hero-section {
+    padding-top: 120px;
+    padding-bottom: 40px;
+    background: linear-gradient(135deg, #ff0000 0%, #892c2c 100%);
+}
+.project-card:hover, .blog-card:hover {
+    transform: translateY(-8px) scale(1.03);
+    box-shadow: 0 8px 32px rgb(0, 0, 0);
+    transition: 0.3s;
+}
+.card-title i {
+    margin-right: 8px;
+}
+::-webkit-scrollbar {
+    width: 8px;
+    background: #4e94f6;
+}
+::-webkit-scrollbar-thumb {
+    background: #6c46b3;
+    border-radius: 4px;
+}
